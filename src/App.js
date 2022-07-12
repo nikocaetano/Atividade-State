@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import imagem from './a-parmegiana.jpg'
 
 class App extends Component{
   state = {
@@ -18,6 +19,7 @@ class App extends Component{
           <li>{this.state.musicas[1]}</li>
           <li>{this.state.musicas[2]}</li>
         </ul>
+        <img src={imagem} alt='Bife a parmegiana'/>
       </div>
     )
   }
